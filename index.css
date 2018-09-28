@@ -1,0 +1,27 @@
+element.style {
+}
+.header_leaves {
+    background: url(../images/header_leaves.png) no-repeat 0px 0px;
+    width: 326px;
+    height: 174px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font-family: Arial;
+    font-size: 14px;
+    background: #cadffa;
+    min-width: 1020px;
+    line-height: 22px;
+    color: #414141;
+}
