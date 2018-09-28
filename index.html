@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="all"/>
+	<meta name="revisit-after" content="1 days"/>
+	
+	<link rel="stylesheet" type="text/css" href="/assets/templates/yuzhniy/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/templates/yuzhniy/css/redmond/jquery-ui-1.8.18.custom.css"/>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+
+
+	<script src="/assets/templates/yuzhniy/js/jquery-1.5.1.min.js"></script>
+	<!--script src="/assets/templates/yuzhniy/js/jquery.min.js"></script-->
+	<script src="/assets/templates/yuzhniy/js/jquery.cookie.js"></script>
+	<script src="/assets/templates/yuzhniy/js/jquery-ui-1.8.18.custom.min.js"></script>
+	<script src="/assets/templates/yuzhniy/js/jquery-ui-i18n.js"></script>
+	<script src="/assets/templates/yuzhniy/js/setinterval_fix.js"></script>
+	
+	<script src="/assets/templates/yuzhniy/js/subscribe.js"></script>
+	<script src="/assets/templates/yuzhniy/js/gallery.js"></script>
+	<script src="/assets/templates/yuzhniy/js/sidemenu.js"></script>
+	<script src="/assets/templates/yuzhniy/js/placeholder.js"></script>	
+
+
+	<title>Главная. Санаторий Южный</title>
+	<base href="http://yuzhniy.com.ua/"><!--[if IE]></base><![endif]-->
+
+	
+	<script>
+		var SETTINGS = {
+			'debug': true,
+			'ajax_gateway': '/index-ajax.php',
+			doc_id: 3,
+			datepicker: {
+				month: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь","Ноябрь", "Декабрь"],
+				days: ["Вс.","Пн.", "Вт.", "Ср.", "Чт.", "Пт.", "Сб."]
+			},
+			vocabulary: {
+				of: "из"
+				}
+		}
+		$(function(){
+
+			$('input[type=text], textarea').each(function(){
+				inputPlaceholder(this);
+			});
+		});
+	</script>
+
+	<script src="/assets/templates/yuzhniy/js/mainmenu.js"></script>
+	<script src="/assets/templates/yuzhniy/js/promoblock.js"></script>
+</head>
+<body>
+<div id="wrapper" class="main">
+
+<div class="header_leaves"></div>
+<div class="header">
+	<div class="fixed relative">
+				<ul class="corinthia menu_header shadow"><li><a href="/company/about" title="О нас" >О нас</a></li>
+<li><a href="/nomera/nomera-i-czenyi" title="Номера и цены" rooms>Номера и цены</a></li>
+<li><a href="/ozdorovlenie/lechebnyie-proczeduryi" title="Оздоровление" >Оздоровление</a></li>
+<li><a href="/pitanie/pitanie" title="Питание" >Питание</a></li>
+<li><a href="/gallery/galereya" title="Галерея" >Галерея</a></li>
+<li class="last"><a href="/contact" title="Контакты" >Контакты</a></li>
+</ul>
+		<!--ul class="corinthia menu_header shadow">
+			<li><a href="/about/about">О нас</a></li>
+			<li><a href="/nomera">Номера и цены</a></li>
+			<li><a href="/procedures/page/desc">Оздоровление</a></li>
+			<li><a href="/info/page/diet">Питание</a></li>
+			<li><a href="/gallery">Галерея</a></li>
+			<li><a href="/contact">Контакты</a></li>
+		</ul-->
+		
+		<ul class="corinthia menu_header">
+			<li>
+				<div class="bg"></div>
+				<a href="/company/about">О нас</a>
+			</li>
+
+			<li>
+				<div class="bg"></div>
+				<a href="/nomera/nomera-i-czenyi">Номера и цены</a>
+			</li>
+
+			<li>
+				<div class="bg"></div>
+				<a href="/ozdorovlenie/lechebnyie-proczeduryi">Оздоровление</a>
+			</li>
+
+			<li>
+				<div class="bg"></div>
+				<a href="/pitanie/pitanie">Питание</a>
+			</li>
+
+			<li>
+				<div class="bg"></div>
+				<a href="/gallery/galereya">Галерея</a>
+			</li>
+
+			<li>
+				<div class="bg"></div>
+				<a href="/contact">Контакты</a>
+			</li>
+</ul>
+
+		<div class="clearer"></div>
+
+					<div class="logo" id="logo"><a href="/"></a></div>
+	</div>
+</div>
+<div class="content">
+	<div class="fixed">
+		<div class="content_left"><!--<a href="http://pl.yuzhniy.com.ua" class="b_language b_language_pl fs12" lang="pl"><span></span>Polska wersja</a>-->
+<a href="http://pl.yuzhniy.com.ua/" class="b_language b_language_pl fs12" lang="pl"><span></span>Polska wersja</a>
+<a href="http://yuzhniy.com.ua/" class="b_language b_language_ru fs12" lang="ru"><span></span>Русская версия</a>
+<a href="http://ukr.yuzhniy.com.ua/" class="b_language b_language_ukr fs12" lang="ukr"><span></span>Українська версія</a></div>
+
+		<div class="content_right">
+			<div class="indexLogo"></div>
+			<div class="mainindex">
+				<div class="fixed">
+					<div class="block_main">
+						<div style="display: block;" id="menu1">
+							<img id='ie1' src="/assets/templates/yuzhniy/images/main/winter_garden_ru.png" Id="block_main_img"
+								 class="block_main_img"/>
+							<span class="block_main_text block_main_text_shadow">Просмотр галереи Зимний сад</span>
+							<span class="block_main_text">Просмотр галереи Зимний сад</span>
+						</div>
+						<div style="display: none;" id="menu2">
+							<img id='ie2' src="/assets/templates/yuzhniy/images/main/personnel_ru.png" Id="block_main_img" class="block_main_img"/>
+						<span class="block_main_text block_main_text_shadow">Первое заочное знакомство с нашим коллективом</span>
+						<span class="block_main_text">Первое заочное знакомство с нашим коллективом</span>
+						</div>
+						<div style="display: none;" id="menu3">
+							<img id='ie3' src="/assets/templates/yuzhniy/images/main/leisure_ru.png" Id="block_main_img"
+								 class="block_main_img"/>
+						<span class="block_main_text block_main_text_shadow">WiFi-кафе, Кино, Танцы, Сауна и  многое другое</span>
+						<span class="block_main_text">WiFi-кафе, Кино, Танцы, Сауна и  многое другое</span>
+						</div>
+						<div style="display: none;" id="menu4">
+							<img id='ie4' src="/assets/templates/yuzhniy/images/main/hot_offer_ru.png" Id="block_main_img" class="block_main_img"/>
+						<span class="block_main_text block_main_text_shadow">Акции, Дополнительные оздоровительные програмы и Специальные предложения для Вас</span>
+						<span class="block_main_text">Акции, Дополнительные оздоровительные програмы и Специальные предложения для Вас</span>
+						</div>
+						<div class="clearer"></div>
+						<div class="block_item_bg menu1" id="block_item_bg"></div>
+						<div class="block_item"><a href="/gallery/sanatorij/zimnij-sad"><img src="/assets/templates/yuzhniy/images/main/m1.png"
+																						onMouseOut="res(1)"
+																						onmouseOver="mainMenu('menu1')"/></a>
+						</div>
+						<div class="block_item"><a href="/company/staff"><img src="/assets/templates/yuzhniy/images/main/m2.png" onMouseOut="res(2)"
+																	  onmouseOver="mainMenu('menu2')"/></a></div>
+						<div class="block_item"><a href="/ozdorovlenie/dosug"><img src="/assets/templates/yuzhniy/images/main/m3.png"
+																						onMouseOut="res(3)"
+																						onmouseOver="mainMenu('menu3')"/></a>
+						</div>
+						<div class="block_item"><a href="/special_offers"><img src="/assets/templates/yuzhniy/images/main/m4.png" onMouseOut="res(4)"
+																	  onmouseOver="mainMenu('menu4')"/></a></div>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+		</div>
+		<div class="clearer"></div>
+	</div>
+</div>
+
+<a href="/company/reviews" class="footer_woomen"><img src="/assets/templates/yuzhniy/images/responses_about_us.png"/></a>
+
+<div class="footer_leaves"></div>
+<div class="footer footer_shodow">
+		<div class="left phone_us">
+		<div class="corinthia corinthia42_shadow relative">Звоните нам:</div>
+		<div class="phone">
+			+38(067) 560-570-1
+		</div>
+	</div>
+
+		<div class="left mail_us">
+		<div class="corinthia corinthia42_shadow">Пишите:</div>
+		<div class="mail"><a href="mailto:pivden123@gmail.com">pivden123@gmail.com</a></div>
+	</div>
+
+		<div class="left news_us"><a href="ru/company/news" class="corinthia corinthia42_shadow">Свежие новости:</a>
+			
+		<div class="news">
+			
+		<a href="/company/news/novyij-superlyuks-zhdet-vas!">Новый Суперлюкс ждет вас!</a>
+			, 
+		<a href="/company/news/otkryitie-svoego-byuveta-v-zimnem-sadu-sanatoriya-pіvdennij">Открытие своего бювета в Зимнем саду санатория "Південний"</a>
+			
+		</div>
+	</div>
+	
+	<div class="clearer"></div>
+		<div class="copy">© Парк здоровья «<a href="/" class="yellow">Южный</a>». Все права защищены</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter15138511 = new Ya.Metrika({id:15138511,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/15138511" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32561145-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '221237981646222');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=221237981646222&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+</div>
+<div class="footer">
+		<div class="left phone_us">
+		<div class="corinthia corinthia42_shadow relative">Звоните нам:</div>
+		<div class="phone">
+			+38(067) 560-570-1
+		</div>
+	</div>
+
+		<div class="left mail_us">
+		<div class="corinthia corinthia42_shadow">Пишите:</div>
+		<div class="mail"><a href="mailto:pivden123@gmail.com">pivden123@gmail.com</a></div>
+	</div>
+
+		<div class="left news_us"><a href="ru/company/news" class="corinthia corinthia42_shadow">Свежие новости:</a>
+			
+		<div class="news">
+			
+		<a href="/company/news/novyij-superlyuks-zhdet-vas!">Новый Суперлюкс ждет вас!</a>
+			, 
+		<a href="/company/news/otkryitie-svoego-byuveta-v-zimnem-sadu-sanatoriya-pіvdennij">Открытие своего бювета в Зимнем саду санатория "Південний"</a>
+			
+		</div>
+	</div>
+	
+	<div class="clearer"></div>
+
+		<div class="copy">© Парк здоровья «<a href="/" class="yellow">Южный</a>». Все права защищены</div>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter15138511 = new Ya.Metrika({id:15138511,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/15138511" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32561145-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '221237981646222');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=221237981646222&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+		<form action="#" data-item="subscribe" class="b_subscribe">
+		<input name="email" class="email" placeholder="Введите Email" type="text">
+		<input class="send" value="Подписаться"  type="submit"/>
+	</form>
+
+		<style type="text/css" media="screen">
+		.main .sunny_logo {
+			width: 192px;
+			height: 66px;
+			display: block;
+			position: relative;
+			left: 844px;
+			top: 20px;
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.sunny_logo {
+			width: 192px;
+			height: 66px;
+			display: block;
+			position: relative;
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+			left: 844px;
+			top: 8px;
+			z-index: 10
+		}
+
+	</style>
+	<div class="sunny_logo">
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="192" height="79" id="sunny_logo_swf"
+				align="middle">
+			<param name="movie" value="/assets/templates/yuzhniy/swf/sunny_logo_swf.swf"/>
+			<param name="quality" value="high"/>
+			<param name="bgcolor" value="#ffffff"/>
+			<param name="play" value="true"/>
+			<param name="loop" value="true"/>
+			<param name="wmode" value="transparent"/>
+			<param name="scale" value="showall"/>
+			<param name="menu" value="true"/>
+			<param name="devicefont" value="false"/>
+			<param name="salign" value=""/>
+			<param name="allowScriptAccess" value="sameDomain"/>
+			<!--[if !IE]>-->
+			<object type="application/x-shockwave-flash" data="/assets/templates/yuzhniy/swf/sunny_logo_swf.swf" width="192" height="79">
+				<param name="movie" value="/assets/templates/yuzhniy/swf/sunny_logo_swf.swf"/>
+				<param name="quality" value="high"/>
+				<param name="bgcolor" value="#ffffff"/>
+				<param name="play" value="true"/>
+				<param name="loop" value="true"/>
+				<param name="wmode" value="transparent"/>
+				<param name="scale" value="showall"/>
+				<param name="menu" value="true"/>
+				<param name="devicefont" value="false"/>
+				<param name="salign" value=""/>
+				<param name="allowScriptAccess" value="sameDomain"/>
+				<a href="http://www.adobe.com/go/getflash">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+						 alt="Adobe Flash Player"/>
+				</a>
+			</object>
+			<!--[endif]-->
+		</object>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
